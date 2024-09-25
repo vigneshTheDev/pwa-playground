@@ -1,0 +1,7 @@
+{
+  "name": "pwa-playgrownd",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
