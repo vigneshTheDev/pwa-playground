@@ -10,7 +10,12 @@ import { StatusBar, Style } from "@capacitor/status-bar";
 import ExploreContainer from "../components/ExploreContainer";
 import "./Home.css";
 
-StatusBar.show();
+(async function () {
+  await StatusBar.setStyle({
+    style: Style.Dark,
+  });
+  await StatusBar.show();
+})();
 const Home: React.FC = () => {
   return (
     <IonPage>
