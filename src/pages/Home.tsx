@@ -20,7 +20,7 @@ const Home: React.FC = () => {
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Hello</IonTitle>
+            <IonTitle size="large">This is a PWA app</IonTitle>
           </IonToolbar>
         </IonHeader>
         <ExploreContainer />
